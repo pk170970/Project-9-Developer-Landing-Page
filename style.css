@@ -1,0 +1,326 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+/* -----------------------------------------------Header Section----------------------------- */
+
+header {
+  background-color: #3400FF;
+  height: 60vh;
+}
+
+/* ------------------------Navigation Bar------------------ */
+
+nav {
+  float: right;
+  margin-right: 55px;
+  margin-top: 20px;
+  color: white;
+}
+
+.nav-item {
+  margin: 6px 12px;
+  cursor: pointer;
+}
+
+.nav-item-active {
+  background-color: white;
+  padding: 9px;
+  border-radius: 8px;
+  color: #8356ef;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+nav svg.nav-item {
+  position: absolute;
+}
+
+/* -----------------------Logo---------------- */
+
+.logo {
+  float: left;
+  margin: 30px 19px 0 56px;
+}
+
+/* -------------Header Text and Images------------------ */
+.header-text {
+  padding-top: 120px;
+  padding-left: 50px;
+  color: #ffffff;
+}
+
+.header-image {
+  float: right;
+  margin-top: -192px;
+  width: 500px;
+  height: 430px;
+}
+
+/* --------------Companies Section----------------- */
+
+.companies {
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+.company-items {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bolder;
+  font-family: 'Righteous';
+  font-size: 18px;
+}
+
+/* --------------------------API Section------------ */
+
+.api {
+  height: 70vh;
+}
+
+.api-heading {
+  padding-top: 70px;
+  padding-left: 80px;
+
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.card-active {
+  margin-left: 90px;
+  box-shadow: 0 2px 20px #000000;
+  padding: 20px;
+  width: 20%;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.card {
+  padding: 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.card-head-active {
+  color: #5A31FC;
+}
+
+.blog-heading {
+  margin-left: 73px;
+  margin-top: 90px;
+  margin-bottom: 35px;
+}
+
+.blog-cards {
+  display: flex;
+  height: 22vw;
+}
+
+.blog-card {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  width: 50vw;
+  margin-left: 67px;
+  margin-right: 15px;
+  height: 33vh;
+  box-shadow: 0 2px 15px black;
+  background-color: #F5F5F5;
+  border-top-left-radius: 45px;
+  font-size: 14px;
+  position: relative;
+
+}
+
+.blog-image img {
+  width: 238px;
+  height: 240px;
+}
+
+.blog-content {
+  position: absolute;
+  left: 470px;
+
+}
+
+.blog-bottom img {
+  position: absolute;
+  left: 385px;
+  top: 8px;
+}
+
+.blog-author {
+  top: 8px;
+  position: absolute;
+  left: 142px;
+  font-size: 12px;
+  width: 95px;
+
+}
+
+/* -------------------------Faq Section---------------------------- */
+
+.faq-section {
+  height: 48vh;
+  background-color: #E9EDFF;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.faq-content {
+  margin-left: 60px;
+  margin-top: 17px;
+}
+
+.faq-content button {
+  background-color: #5A31FC;
+  color: #ffffff;
+  padding: 10px;
+  width: 170px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.faq-image {
+  margin-right: 100px;
+}
+
+.faq-image img {
+  width: 585px;
+  height: 343px;
+}
+
+
+/* -------------------Download Section-------------------- */
+
+.download-section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  position: relative;
+}
+
+.download-content {
+  margin-left: 60px;
+  margin-top: 70px;
+  width: 260px;
+  cursor: pointer;
+}
+
+.download-content span {
+  font-size: 22px;
+}
+
+.download-email {
+  width: 45vw;
+}
+
+.download-email form {
+  margin-top: 100px;
+  margin-left: 65px;
+  position: relative;
+}
+
+.download-email form input {
+  padding: 10px 194px;
+  border-radius: 25px;
+  text-align: center;
+  border: 1px solid #000000;
+
+}
+
+.download-email form button {
+  position: absolute;
+    right: 75px;
+    top: 3px;
+    padding: 6px 50px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    background-color: #5A31FC;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+.download-email form input::placeholder{
+  position: absolute;
+  right: 220px;
+}
+
+/* -------------------Footer Section------------------------- */
+
+.footer-section{
+  display: flex;
+    background-color: #3C0AFE;
+    justify-content: space-between;
+    height: 20vh;
+    padding-top: 50px;
+    margin-top: 45px;
+}
+.footer-left{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  width: 30vw;
+  text-align: center;
+}
+
+.footer-logo{
+  width: 100px;
+    height: 34px;
+    cursor: pointer;
+    margin-left: 17px;
+}
+
+
+.list{
+  display: flex;
+    list-style: none;
+    margin-left: -50px;
+    margin-top: 25px;
+}
+.list-items{
+margin-left: 20px;
+color: #ffffff;
+cursor: pointer;
+}
+
+.footer-right{
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+  width: 20vw;
+  align-items: center;
+}
+
+.footer-logos{
+  margin-left: 26px;
+  cursor: pointer;
+}
+.logos-list{
+  display: flex;
+  margin-left: -27px;
+}
+
+.logos-list .list-items{
+  list-style: none;
+  margin-left: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
